@@ -1,0 +1,122 @@
+{
+    "BRL": {
+        "sigla": "BRL",
+        "nome": "Real Brasileiro",
+        "simbolo": "R$",
+        "img": "./assets/countries/brl.png"
+    },
+    "USD": {
+        "sigla": "USD",
+        "nome": "Dólar Americano",
+        "simbolo": "$",
+        "img": "./assets/countries/usd.png"
+    },
+    "EUR": {
+        "sigla": "EUR",
+        "nome": "Euro",
+        "simbolo": "€",
+        "img": "./assets/countries/eur.png"
+    },
+    "GBP": {
+        "sigla": "GBP",
+        "nome": "Libra Esterlina",
+        "simbolo": "£",
+        "img": "./assets/countries/gbp.png"
+    },
+    "JPY": {
+        "sigla": "JPY",
+        "nome": "Iene Japonês",
+        "simbolo": "¥",
+        "img": "./assets/countries/jpy.png"
+    },
+    "AUD": {
+        "sigla": "AUD",
+        "nome": "Dólar Australiano",
+        "simbolo": "A$",
+        "img": "./assets/countries/aud.png"
+    },
+    "CAD": {
+        "sigla": "CAD",
+        "nome": "Dólar Canadense",
+        "simbolo": "C$",
+        "img": "./assets/countries/cad.png"
+    },
+    "CHF": {
+        "sigla": "CHF",
+        "nome": "Franco Suíço",
+        "simbolo": "CHF",
+        "img": "./assets/countries/chf.png"
+    },
+    "CNY": {
+        "sigla": "CNY",
+        "nome": "Yuan Chinês",
+        "simbolo": "¥",
+        "img": "./assets/countries/cny.png"
+    },
+    "SEK": {
+        "sigla": "SEK",
+        "nome": "Coroa Sueca",
+        "simbolo": "kr",
+        "img": "./assets/countries/sek.png"
+    },
+    "NZD": {
+        "sigla": "NZD",
+        "nome": "Dólar Neozelandês",
+        "simbolo": "NZ$",
+        "img": "./assets/countries/nzd.png"
+    },
+    "MXN": {
+        "sigla": "MXN",
+        "nome": "Peso Mexicano",
+        "simbolo": "$",
+        "img": "./assets/countries/mxn.png"
+    },
+    "SGD": {
+        "sigla": "SGD",
+        "nome": "Dólar de Singapura",
+        "simbolo": "S$",
+        "img": "./assets/countries/sgd.png"
+    },
+    "HKD": {
+        "sigla": "HKD",
+        "nome": "Dólar de Hong Kong",
+        "simbolo": "HK$",
+        "img": "./assets/countries/hkd.png"
+    },
+    "NOK": {
+        "sigla": "NOK",
+        "nome": "Coroa Norueguesa",
+        "simbolo": "kr",
+        "img": "./assets/countries/nok.png"
+    },
+    "KRW": {
+        "sigla": "KRW",
+        "nome": "Won Sul-Coreano",
+        "simbolo": "₩",
+        "img": "./assets/countries/krw.png"
+    },
+    "TRY": {
+        "sigla": "TRY",
+        "nome": "Lira Turca",
+        "simbolo": "₺",
+        "img": "./assets/countries/try.png"
+    },
+    "RUB": {
+        "sigla": "RUB",
+        "nome": "Rublo Russo",
+        "simbolo": "₽",
+        "img": "./assets/countries/rub.png"
+    },
+    "INR": {
+        "sigla": "INR",
+        "nome": "Rupia Indiana",
+        "simbolo": "₹",
+        "img": "./assets/countries/inr.png"
+    },
+    "ZAR": {
+        "sigla": "ZAR",
+        "nome": "Rand Sul-Africano",
+        "simbolo": "R",
+        "img": "./assets/countries/zar.png"
+    }
+}
