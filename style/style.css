@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #1a1a1a;
+}
+
+:root {
+    --bg: #F3F3F3;
+    --bg-border: #BCBCBC;
+    --color-principal: #33596C;
+    --color-texto: #ffffff;
+    --color-int: #F6F6F6;
+
+    --color-texto-p: #414141;
+    --fonte-title: clamp(25px, 1vw, 26px);
+    --fonte-sub-title: clamp(15px, 1vw, 20px);
+    --fonte-min-p: clamp(11px, 1vw, 15px);
+}
+
+
+img {
+    width: 20px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    padding: 20px;
+    background: var(--bg);
+    border: 1px solid var(--bg-border);
+    border-radius: 20px;
+}
+
+.box-title {
+    background: var(--color-principal);
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box-title h1 {
+    font-size: var(--fonte-title);
+    color: var(--color-texto);
+    text-align: left;
+}
+
+.box-title button {
+    background: transparent;
+    border: none;
+    color: var(--color-texto);
+}
+
+.box-valor {
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.box-valor h2 {
+    color: var(--color-texto-p);
+}
+
+.box-valor input {
+    padding: 10px;
+    background: var(--color-int);
+    border: 1px solid var(--bg-border);
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--color-texto-p);
+}
+
+.box-para-converter {
+    background: var(--color-int);
+    border: 1px solid var(--bg-border);
+    border-radius: 10px;
+
+    padding: 10px 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.box-para-converter .box-sigle div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.box-para-converter .box-sigle div img {
+    width: 36px;
+    height: 25px;
+}
+
+.box-para-converter .box-sigle div h3 {
+    font-size: var(--fonte-title);
+    color: var(--color-texto-p);
+}
+
+.box-para-converter .box-sigle p {
+    font-size: var(--fonte-sub-title);
+    color: var(--color-texto-p);
+}
+.box-para-converter .box-converter-set {
+    display: flex;
+    align-items: center;
+    gap: 5px
+    ;
+}
+
+.box-para-converter .box-converter-set p {
+    font-size: var(--fonte-sub-title);
+    color: var(--color-texto-p);
+}
+
+
+.box-para {
+    background: var(--color-int);
+    border: 1px solid var(--bg-border);
+    border-radius: 10px;
+
+    padding: 10px 1dvh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
