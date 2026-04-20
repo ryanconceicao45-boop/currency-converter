@@ -316,10 +316,8 @@ input[type="number"]::-webkit-inner-spin-button {
     cursor: pointer;
 }
 
-
 .item-moeda.selected {
     background: var(--bg-border);
-
     transform: scale(0.998);
 }
 
