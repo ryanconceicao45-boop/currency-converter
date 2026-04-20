@@ -295,12 +295,16 @@ input[type="number"]::-webkit-inner-spin-button {
 
 #lista-moedas {
     margin-top: 20px;
-    max-height: 300px;
+    max-height: 400px;
     overflow-y: auto;
     z-index: 1000;
+    scrollbar-color: var(--color-principal) transparent;
 }
 
+
 .item-moeda {
+    width: 100%;
+    max-width: 540px;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -313,8 +317,10 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 
-.item-moeda:hover {
-    transform: scale(0.99);
+.item-moeda.selected {
+    background: var(--bg-border);
+
+    transform: scale(0.998);
 }
 
 .flag {
@@ -324,7 +330,7 @@ input[type="number"]::-webkit-inner-spin-button {
 
 .sigla {
     font-weight: bold;
-        color: var(--color-texto-p);
+    color: var(--color-texto-p);
 }
 
 .nome {
