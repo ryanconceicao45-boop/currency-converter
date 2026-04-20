@@ -11,11 +11,12 @@
         "simbolo": "$",
         "img": "./assets/countries/usd.png"
     },
+
     "EUR": {
         "sigla": "EUR",
         "nome": "Euro",
         "simbolo": "€",
-        "img": "./assets/countries/eur.png"
+        "img": "./assets/countries/eur.jpeg"
     },
     "GBP": {
         "sigla": "GBP",
