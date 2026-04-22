@@ -15,10 +15,12 @@
             <h1>CONVERSOR UNIVERSAL</h1>
             <button id="btn-dark-mode" class="material-symbols-outlined">ev_shadow</button>
         </div>
+
         <div id="box-inicio">
             <div class="box-valor">
                 <h2>Valor</h2>
-                <input placeholder="Digite o valor a converter" type="number" id="">
+                <input placeholder="Digite o valor a converter" type="number" maxlength="5" inputmode="numeric"
+                    id="input-valor">
             </div>
             <div onclick="convertionSelect('de')" class="box-para-converter">
                 <div class="box-sigle">
@@ -35,41 +37,53 @@
                     </span>
                 </div>
             </div>
-            <div onclick="convertionSelect('para')" class="box-para">
-                <div class="box-sigle-p">
-                    <div>
-                        <img id="img-c" src="./assets/countries/usd.png" alt="Icon-usd">
-                        <h3 id="sigla-c">USD</h3>
+            <div class="box-para-reverse">
+                <div onclick="convertionSelect('para')" class="box-para">
+                    <div class="box-sigle-p">
+                        <div>
+                            <img id="img-c" src="./assets/countries/usd.png" alt="Icon-usd">
+                            <h3 id="sigla-c">USD</h3>
+                        </div>
+                        <p id="nome-c">Dolar dos Estados Unidos</p>
                     </div>
-                    <p id="nome-c">Dolar dos Estados Unidos</p>
+                    <div class="box-para-set">
+                        <p>Para</p>
+                        <span class="material-symbols-outlined">
+                            keyboard_arrow_down
+                        </span>
+                    </div>
                 </div>
-                <div class="box-para-set">
-                    <p>Para</p>
-                    <span class="material-symbols-outlined">
-                        keyboard_arrow_down
-                    </span>
+                <div onclick="inverterC()" class="box-resver material-symbols-outlined">
+                    mobiledata_arrows
                 </div>
             </div>
+
+
             <div class="box-result">
                 <div class="box-res-1">
-                    <p>Conversão de:<br><span>Dólar dos Estados Unidos/USD (220)</span></p>
-                    <h3 id="simbolo-m">R$<span id="valor-m">5.000</span></h3>
+                    <p>Conversão de:</p>
+                    <span id="simbolo-m">R$</span>
+                    <span id="valor-m"> 0</span>
                 </div>
                 <div class="box-res-2">
-                    <p>Para: <br> <span>Dólar dos Estados Unidos/USD (220)</span></p>
-                    <h3>$ <span>1.000</span></h3>
+                    <p>Para:</p>
+                    <span id="simbolo-c">$</span>
+                    <span id="valor-c"> 0</span>
                 </div>
             </div>
             <div class="box-haset">
-                <span id="vname-m">1 Real Brasileiro</span>
-                igual a
-                <span id="vname-c">0,20 Dólar americano</span>
+                <p><span id="vname-m"></span> igual a <span id="vname-c"></span></p>
             </div>
-            <button class="btn-converter" onclick="converterbtn()">Converter</button>
+            <button class="btn-converter" onclick="conveter()">Converter</button>
         </div>
-        <div id="lista-moedas">
-            <button onclick="Confirmar()">Confirmar</button>
-            <button onclick="voltar()">Voltar</button>
+        <div id="conteiner-contines">
+            <div id="lista-moedas">
+            </div>
+            <div class="list-btn">
+                <button onclick="Confirmar()">Confirmar</button>
+                <button onclick="voltar()">Voltar</button>
+            </div>
+
         </div>
     </section>
     <script src="./src/script.js"></script>
