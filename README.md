@@ -10,11 +10,6 @@
 > Durante o desenvolvimento deste projeto, busquei colocar em prática conceitos fundamentais do JavaScript, enfrentando desafios que contribuíram diretamente para a evolução da minha lógica de programação e entendimento sobre integração com serviços externos.
 
 ---
-## 💡 Desafios enfrentados
-
-> Confesso que o desenvolvimento não foi simples. Durante o processo, enfrentei dificuldades principalmente na integração com a API e no tratamento dos dados retornados. No entanto, cada obstáculo superado contribuiu para um aprendizado mais sólido e uma evolução significativa nas minhas habilidades.
-
----
 
 ## 🚀 Tecnologias utilizadas
 
@@ -32,16 +27,6 @@
 * [ ] Interface simples e intuitiva
 * [ ] Entrada de valores personalizada pelo usuário
 * [ ] Seleção de moedas de origem e destino
----
-
-## ▶️ Como executar
-
-```bash
-# Clone o repositório
-git clone https://github.com/ryanconceicao45-boop/calculadora
-# Abra o index.html no navegador
-```
-
 ---
 
 ## 📸 Preview
