@@ -9,7 +9,7 @@
 }
 
 :root {
-    --bg-geral: #ffffff;
+    --bg-geral: #ebebeb;
     --bg: #F3F3F3;
     --bg-border: #BCBCBC;
     --color-principal: #806f83;
@@ -43,6 +43,7 @@ body {
     background: var(--bg-geral);
     overflow: hidden;
 }
+
 #box-inicio {
     display: block;
 }
@@ -58,6 +59,7 @@ body {
     border: 1px solid var(--bg-border);
     border-radius: 20px;
 }
+
 .box-title {
     background: var(--color-principal);
     border-radius: 10px;
@@ -67,6 +69,7 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
 .box-title h1 {
     font-size: var(--fonte-title);
     color: var(--color-texto);
@@ -78,13 +81,16 @@ body {
     border: none;
     color: var(--color-texto);
 }
+
 .box-valor {
     width: 100%;
     padding: 10px 0px;
 }
+
 .box-valor h2 {
     color: var(--color-texto-p);
 }
+
 .box-valor input {
     padding: 10px;
     background: var(--color-int);
@@ -97,6 +103,7 @@ body {
     color: var(--color-texto-p);
     outline: none;
 }
+
 input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button {
     -webkit-appearance: none;
@@ -105,7 +112,7 @@ input[type="number"]::-webkit-inner-spin-button {
 
 
 
-.box-para-converter, 
+.box-para-converter,
 .box-para {
     background: var(--color-int);
     border: 1px solid var(--bg-border);
@@ -120,8 +127,8 @@ input[type="number"]::-webkit-inner-spin-button {
     margin-bottom: 10px;
 }
 
-.box-para-converter .box-sigle div, 
-.box-para .box-sigle-p div  {
+.box-para-converter .box-sigle div,
+.box-para .box-sigle-p div {
     width: 100%;
     display: flex;
     align-items: center;
@@ -196,7 +203,7 @@ input[type="number"]::-webkit-inner-spin-button {
     color: var(--color-texto);
     font-weight: 500;
     font-size: var(--fonte-sub-title);
-    
+
 }
 
 .box-para-reverse {
@@ -214,6 +221,7 @@ input[type="number"]::-webkit-inner-spin-button {
     justify-content: center;
     font-size: clamp(30px, 1vw, 90px);
 }
+
 .box-para:hover,
 .box-para-converter:hover,
 .box-resver:hover {
@@ -235,7 +243,8 @@ input[type="number"]::-webkit-inner-spin-button {
     color: var(--color-texto-p);
 }
 
-.box-haset p, .box-haset p span {
+.box-haset p,
+.box-haset p span {
     color: var(--color-texto-p);
     font-size: var(--fonte-sub-title);
 }
@@ -248,6 +257,7 @@ input[type="number"]::-webkit-inner-spin-button {
     height: 60px;
     color: var(--color-texto);
 }
+
 .btn-converter:hover {
     cursor: pointer;
     transform: scale(0.99);
@@ -262,7 +272,7 @@ input[type="number"]::-webkit-inner-spin-button {
     background: var(--bg);
     border: 1px solid var(--bg-border);
     border-radius: 20px;
-} 
+}
 
 #lista-moedas {
     margin-top: 20px;
@@ -314,11 +324,10 @@ input[type="number"]::-webkit-inner-spin-button {
     justify-content: center;
     width: 100%;
     padding: 10px 0px;
-    gap: 5px
-    ;
+    gap: 5px;
 }
 
-.list-btn button{
+.list-btn button {
     padding: 10px 0px;
     display: flex;
     align-items: center;
@@ -330,7 +339,7 @@ input[type="number"]::-webkit-inner-spin-button {
     color: var(--color-texto);
 }
 
-.list-btn button:hover{
+.list-btn button:hover {
     cursor: pointer;
     transform: scale(0.98);
 }
