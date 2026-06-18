@@ -65,3 +65,7 @@ LinkedIn: https://www.linkedin.com/in/ryan-concei%C3%A7%C3%A3o-132404283/
 ⭐ Este projeto está sob a licença MIT.
 <br>
 ⭐ Se gostou do projeto, considere deixar uma estrela no repositório.
+
+---
+
+banner: https://ik.imagekit.io/ubdczxve6/converty.jpg?updatedAt=1781797979742
