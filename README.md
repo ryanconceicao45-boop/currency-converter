@@ -68,4 +68,4 @@ LinkedIn: https://www.linkedin.com/in/ryan-concei%C3%A7%C3%A3o-132404283/
 
 ---
 
-banner: https://ik.imagekit.io/ubdczxve6/converty.jpg?updatedAt=1781797979742
+Banner: https://ik.imagekit.io/ubdczxve6/converty.jpg?updatedAt=1781797979742
